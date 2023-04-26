@@ -22,10 +22,6 @@ body {
   justify-content: center;
 }
 
-.hidden{
-  display: none;
-}
-
 /* LAYOUT */
 main {
   position: relative;
@@ -134,7 +130,7 @@ main {
 }
 
 .btn--new {
-  top: 4rem;
+  top: 4.6rem;
 }
 .btn--roll {
   top: 39.3rem;
@@ -168,4 +164,35 @@ main {
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+@media (max-width: 845px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 675px) {
+  html {
+    font-size: 45%;
+  }
+}
+@media (max-width: 610px) {
+  html {
+    font-size: 38%;
+  }
+}
+@media (max-width: 512px) {
+  html {
+    font-size: 30%;
+  }
+  main {
+    transform: rotate(90deg);
+    width: 200rem;
+  }
+}
+
+@media (max-width: 420px) {
+  html {
+    font-size: 22%;
+  }
 }
